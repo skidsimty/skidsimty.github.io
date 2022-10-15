@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(15,17,15);  
+    color: white;   
+    font-family:"Segoe UI", "Source Sans Pro", Calibri, Candara, Arial, sans-serif;ff
+}
+#enter{
+    top:0;
+    left:0;
+    z-index:3;
+    opacity:1;
+    width:100%;
+    height:100vh;
+    cursor:pointer;
+    position:fixed;
+    text-align:center;
+    background-color:#0F110F;
+    transition:opacity .5s
+}
+.begin{
+    top:50%;
+    left:50%;
+    color:#FFF;
+    position:absolute;
+    font-weight: normal;
+    font-size: 20px;
+    transform:translate(-50%,-50%);font-family:"Segoe UI", "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
+}
+#main{
+    z-index:2
+}
+
+.FNM-tit {
+    font-size: 1rem;
+    font-family:Courier New, monospace
+}
+
+
+h1{ 
+    font-weight:300; 
+    line-height:1.2; 
+    font-size:22px;
+}
