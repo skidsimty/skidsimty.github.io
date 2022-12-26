@@ -28,7 +28,9 @@ body {
 #main{
     z-index:2
 }
-
+footer {
+    display: block;
+  }
 .FNM-tit {
     font-size: 1rem;
     font-family:Courier New, monospace
